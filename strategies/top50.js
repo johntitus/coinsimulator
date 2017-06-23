@@ -14,7 +14,7 @@ holdings = {
 
 
 let weeklySpend = 100;
-let numCoins = 5;
+let numCoins = 50;
 let perCoin = weeklySpend / numCoins;
 
 let bitcoinPrice;
