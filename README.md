@@ -4,8 +4,11 @@ Simulates buying crypto-currencies over time.
 Using historical data from CoinMarketCap, it runs a strategy against each week of data, buying coins.
 At the end of the run, it tells you the value of your holdings.
 
-
 **Requires Node.js.**
+
+## Default Strategy
+Buys the top 50 coins, by market cap, spending a total of $100 each week.  To change the number of coins or the amount spend, 
+edit `strategies/top50.js` or create your own strategy and call it via the `-s` option below.
 
 ## Install
 ```
@@ -13,7 +16,7 @@ git clone git@github.com:johntitus/coinsimulator.git
 cd coinsimulator
 npm install
 ```
-** Run
+## Run
 ```
 node simulate
 ```
