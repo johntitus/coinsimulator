@@ -1,0 +1,12 @@
+{
+  "name": "coinsimulator",
+  "version": "0.0.1",
+  "description": "Simulates buying crypto-currencies over time.",
+  "main": "index.js",
+  "author": "John Titus",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.10.0",
+    "moment": "^2.18.1"
+  }
+}
